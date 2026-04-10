@@ -1,0 +1,31 @@
+# Security Policy
+
+## Supported Versions
+
+As Springwell-Keel is in active Phase 0 development, we are currently providing security updates for the following:
+
+| Version | Supported |
+|---------|-----------|
+| main branch | YES |
+
+## Reporting a Vulnerability
+
+**Please do not open public GitHub issues for security vulnerabilities.**
+
+To report a vulnerability, email us directly at:
+
+**steven.jones@lasthouseblock.com**
+
+Include in your report:
+- Description of the vulnerability
+- Steps to reproduce
+- Potential impact
+- Any suggested fixes if you have them
+
+We will acknowledge receipt within 48 hours and provide a detailed response within 7 days outlining next steps.
+
+We are committed to working with security researchers to verify and address any potential vulnerabilities reported to us. We will not take legal action against researchers who follow responsible disclosure practices.
+
+---
+
+*Built by LHB Social Enterprise | Apache-2.0*
