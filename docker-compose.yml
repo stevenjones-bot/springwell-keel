@@ -1,0 +1,39 @@
+# Springwell-Keel — Local Development Environment (Stub)
+# Status: Phase 0 — this is a starting point, not a final architecture
+# Contributors: see docs/adr/ADR-001 before modifying
+
+version: '3.9'
+
+services:
+
+  # System of Record — Postgres
+  # All three lanes share this as the source of truth
+  db:
+    image: postgres:15
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: springwell
+      POSTGRES_PASSWORD: springwell
+      POSTGRES_DB: springwell_keel
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  # Placeholder: Lane A — Individual Journey Orchestration
+  # lane_a:
+  #   build: ./lanes/lane_a
+  #   depends_on: [db]
+
+  # Placeholder: Lane B — Organizational Service Catalog
+  # lane_b:
+  #   build: ./lanes/lane_b
+  #   depends_on: [db]
+
+  # Placeholder: Lane C — Capability Sequencing & Readiness Handoff
+  # lane_c:
+  #   build: ./lanes/lane_c
+  #   depends_on: [db]
+
+volumes:
+  postgres_data:
