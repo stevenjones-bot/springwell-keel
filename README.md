@@ -1,21 +1,23 @@
-# # Springwell-Keel
+# Springwell-Keel
 
-**Agentic Workflow Orchestration Framework**
+**Agentic Workflow Orchestration Framework for Faith-Based Ministry**
 Built by [LHB Social Enterprise](https://lasthouseblock.com) | Apache-2.0
 
 ---
 
 ## What Is This
 
-Springwell-Keel is a greenfield, open-source, agentic workflow orchestration framework powering three independent SaaS products from a single intelligent core.
+Springwell-Keel is a greenfield, open-source, agentic workflow orchestration framework built to serve **churches and faith-based benevolence ministries.** The core problem it solves: people in crisis walk through the doors of a church or ministry, receive one-time help, and disappear — no follow-up, no root cause detection. We call it band-aid churn, and it's quietly breaking the organizations built to catch people when everything else fails.
 
-One agentic engine — the **Keel Engine** — powers three completely separate product lanes simultaneously:
+Springwell-Keel automates the follow-up, detects underlying need, and routes people to the right care lane before they're lost. Think of it as a sequenced care pipeline — built specifically for ministry contexts where staff is thin, volunteers are dwindling, and no one has time to chase down the people who need it most.
+
+One agentic engine — the **Keel Engine** — powers three coordinated service lanes:
 
 | Lane | Purpose |
 |------|---------|
-| Lane A | Individual Journey Orchestration |
-| Lane B | Organizational Service Catalog |
-| Lane C | Capability Sequencing & Readiness Handoff |
+| Lane A | Individual Journey Orchestration — intake, sensing, sequenced follow-up |
+| Lane B | Organizational Service Catalog — matching people to the right care module |
+| Lane C | Capability Sequencing & Readiness Handoff — routing across care domains without gaps |
 
 We are building in public, from day zero. There is no legacy codebase. No inherited architecture. No patterns already baked in.
 
@@ -61,4 +63,4 @@ This is the earliest possible moment to shape something real.
 
 > "Kindness matters and always wins." — Steven Earl Jones, Founder
 
-Apache-2.0 License-keel
+Apache-2.0 License
