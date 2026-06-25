@@ -3,6 +3,8 @@
 **Agentic Workflow Orchestration Framework for Faith-Based Ministry**
 Built by [LHB Social Enterprise](https://lasthouseblock.com) | Apache-2.0
 
+> **AI Disclosure:** Springwell-Keel is developed with AI-assisted tooling. The vision, direction, and ministry application are authored by Steven Earl Jones. This project is human-led and AI-assisted.
+
 ---
 
 ## What Is This
@@ -58,9 +60,9 @@ This is the earliest possible moment to shape something real.
 
 ## Built By
 
-**LHB Social Enterprise** — The Last House on the Block LLC
+**Steven Earl Jones** — Founder, The Last House on the Block LLC  
 *Serving communities that need it most.*
 
-> "Kindness matters and always wins." — Steven Earl Jones, Founder
+> "Kindness matters and always wins." — Steven Earl Jones
 
 Apache-2.0 License
